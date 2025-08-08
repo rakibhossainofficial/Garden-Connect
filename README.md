@@ -1,12 +1,49 @@
-# React + Vite
+# 🌿 Garden Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A vibrant platform for gardening enthusiasts to share tips, explore gardeners, join events, and connect over topics like composting, hydroponics, balcony gardening, and more.
 
-Currently, two official plugins are available:
+## 🔗 Live Site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://your-live-site-url.netlify.app](https://mist-garden-b815c.web.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js  
+- Firebase Authentication  
+- MongoDB & Express.js (Node.js)  
+- React Router DOM  
+- Tailwind CSS / CSS3  
+- React Datepicker  
+- React-Toastify / SweetAlert for notifications  
+
+
+## 🚀 Core Features
+
+- User Authentication (Email/password & Google Login)  
+- Responsive Navbar with user profile dropdown  
+- Home page with banner slider, featured gardeners, and trending gardening tips  
+- CRUD functionality to share, update, and delete garden tips (private routes)  
+- Browse and filter gardening tips by difficulty level  
+- Explore gardener profiles with detailed info  
+- Like tips functionality with live update of like counts  
+- Dark and light theme toggle  
+- Custom 404 page and loading spinner  
+
+## 📦 Dependencies
+
+- react-router-dom  
+- firebase  
+- axios  
+- react-datepicker  
+- react-toastify / sweetalert  
+- swiperjs / slick-slider (for banner)  
+- react-share  
+- react-select (for filters)  
+
+## 🧑‍💻 How to Run Locally
+
+1. Clone the repositories:
+
+```bash
+git clone https://github.com/yourusername/gardening-client.git
+git clone https://github.com/yourusername/gardening-server.git
